@@ -1,16 +1,4 @@
-"""
-Grid Trading Strategy (simplified).
 
-Creates a grid of buy and sell limit orders between a low and high price.
-This example just demonstrates order placement, not dynamic rebalancing.
-
-Usage (dry-run):
-  python src/advanced/grid_strategy.py --symbol BTCUSDT --low 60000 --high 70000 --steps 10 --qty 0.0005 --dry-run
-
-Notes:
-- In practice, you'd want smarter logic (like cancel/replace, balance allocation).
-- Here we only place BUY orders at grid prices (for simplicity).
-"""
 import argparse
 import os
 from decimal import Decimal
