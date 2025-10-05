@@ -1,14 +1,4 @@
-"""
-Stop-Limit watcher: watches market price and places a LIMIT order when a STOP trigger is hit.
 
-Usage example (dry-run):
-  python src/advanced/stop_limit.py --symbol BTCUSDT --side BUY --qty 0.001 --stop 65000 --limit 64900 --dry-run
-
-Notes:
-- This uses polling (`futures_symbol_ticker`) for simplicity. For production replace with WebSocket
-  user data / market streams to get lower latency and fewer missed triggers.
-- For SELL side, the stop condition flips (we place limit when price <= stop).
-"""
 import argparse
 import time
 import os
