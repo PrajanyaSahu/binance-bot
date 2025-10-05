@@ -1,10 +1,4 @@
-"""
-Simple CLI script to place Market Orders on Binance USDT-M Futures.
-Supports --dry-run mode so you can test without sending real trades.
 
-Example:
-    python src/market_orders.py --symbol BTCUSDT --side BUY --qty 0.001 --dry-run
-"""
 import os
 import argparse
 from decimal import Decimal
