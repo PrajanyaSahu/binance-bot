@@ -1,9 +1,4 @@
-"""
-Place Limit Orders on Binance USDT-M Futures with validation and dry-run support.
 
-Example:
-    python src/limit_orders.py --symbol BTCUSDT --side SELL --qty 0.001 --price 65000 --dry-run
-"""
 import os
 import argparse
 from decimal import Decimal
