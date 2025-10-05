@@ -1,0 +1,64 @@
+2025-10-05 12:35:09,995 | WARNING | __main__ | API key/secret not found in environment; running dry-run only
+2025-10-05 12:35:09,996 | INFO | __main__ | Placing market order: BTCUSDT BUY 0.001
+2025-10-05 12:35:09,997 | INFO | __main__ | Dry-run mode: not sending order to Binance
+2025-10-05 12:35:09,997 | INFO | __main__ | Result: {'status': 'DRY_RUN', 'symbol': 'BTCUSDT', 'side': 'BUY', 'qty': '0.001'}
+2025-10-05 12:36:03,835 | WARNING | __main__ | API key/secret not found in environment; running dry-run only
+2025-10-05 12:36:03,835 | INFO | __main__ | Placing market order: BTCUSDT SELL 0.002
+2025-10-05 12:36:03,835 | INFO | __main__ | Dry-run mode: not sending order to Binance
+2025-10-05 12:36:03,835 | INFO | __main__ | Result: {'status': 'DRY_RUN', 'symbol': 'BTCUSDT', 'side': 'SELL', 'qty': '0.002'}
+2025-10-05 12:36:13,419 | WARNING | __main__ | API key/secret not found in environment; running dry-run only
+2025-10-05 12:36:13,420 | INFO | __main__ | Placing limit order: BTCUSDT SELL 0.001 @ 65000 TIF=GTC
+2025-10-05 12:36:13,420 | INFO | __main__ | Dry-run mode: not sending limit order to Binance
+2025-10-05 12:36:13,421 | INFO | __main__ | Result: {'status': 'DRY_RUN', 'symbol': 'BTCUSDT', 'side': 'SELL', 'qty': '0.001', 'price': '65000'}
+2025-10-05 12:42:04,887 | WARNING | __main__ | API key/secret not found in environment; running dry-run only
+2025-10-05 12:42:04,888 | INFO | __main__ | Starting TWAP: BTCUSDT BUY total=0.01 chunks=5 duration=60s
+2025-10-05 12:42:04,888 | INFO | __main__ | Each chunk: 0.00200000 (remainder carried until last chunk) every 12.00s
+2025-10-05 12:42:04,889 | INFO | __main__ | TWAP chunk 1/5 qty=0.00200000
+2025-10-05 12:42:04,889 | INFO | __main__ | Dry-run: skipping actual market order
+2025-10-05 12:42:16,890 | INFO | __main__ | TWAP chunk 2/5 qty=0.00200000
+2025-10-05 12:42:16,890 | INFO | __main__ | Dry-run: skipping actual market order
+2025-10-05 12:42:28,892 | INFO | __main__ | TWAP chunk 3/5 qty=0.00200000
+2025-10-05 12:42:28,892 | INFO | __main__ | Dry-run: skipping actual market order
+2025-10-05 12:42:40,893 | INFO | __main__ | TWAP chunk 4/5 qty=0.00200000
+2025-10-05 12:42:40,893 | INFO | __main__ | Dry-run: skipping actual market order
+2025-10-05 12:42:52,895 | INFO | __main__ | TWAP chunk 5/5 qty=0.00200000
+2025-10-05 12:42:52,895 | INFO | __main__ | Dry-run: skipping actual market order
+2025-10-05 12:42:52,896 | INFO | __main__ | TWAP result: [{'chunk': 1, 'status': 'DRY_RUN', 'qty': '0.00200000'}, {'chunk': 2, 'status': 'DRY_RUN', 'qty': '0.00200000'}, {'chunk': 3, 'status': 'DRY_RUN', 'qty': '0.00200000'}, {'chunk': 4, 'status': 'DRY_RUN', 'qty': '0.00200000'}, {'chunk': 5, 'status': 'DRY_RUN', 'qty': '0.00200000'}]
+2025-10-05 12:43:00,789 | WARNING | __main__ | API key/secret not found in environment; running dry-run only
+2025-10-05 12:43:00,790 | INFO | __main__ | Starting TWAP: BTCUSDT BUY total=0.01 chunks=5 duration=30s
+2025-10-05 12:43:00,791 | INFO | __main__ | Each chunk: 0.00200000 (remainder carried until last chunk) every 6.00s
+2025-10-05 12:43:00,792 | INFO | __main__ | TWAP chunk 1/5 qty=0.00200000
+2025-10-05 12:43:00,793 | INFO | __main__ | Dry-run: skipping actual market order
+2025-10-05 12:43:06,794 | INFO | __main__ | TWAP chunk 2/5 qty=0.00200000
+2025-10-05 12:43:06,794 | INFO | __main__ | Dry-run: skipping actual market order
+2025-10-05 12:43:12,796 | INFO | __main__ | TWAP chunk 3/5 qty=0.00200000
+2025-10-05 12:43:12,796 | INFO | __main__ | Dry-run: skipping actual market order
+2025-10-05 12:43:18,797 | INFO | __main__ | TWAP chunk 4/5 qty=0.00200000
+2025-10-05 12:43:18,797 | INFO | __main__ | Dry-run: skipping actual market order
+2025-10-05 12:43:24,798 | INFO | __main__ | TWAP chunk 5/5 qty=0.00200000
+2025-10-05 12:43:24,798 | INFO | __main__ | Dry-run: skipping actual market order
+2025-10-05 12:43:24,800 | INFO | __main__ | TWAP result: [{'chunk': 1, 'status': 'DRY_RUN', 'qty': '0.00200000'}, {'chunk': 2, 'status': 'DRY_RUN', 'qty': '0.00200000'}, {'chunk': 3, 'status': 'DRY_RUN', 'qty': '0.00200000'}, {'chunk': 4, 'status': 'DRY_RUN', 'qty': '0.00200000'}, {'chunk': 5, 'status': 'DRY_RUN', 'qty': '0.00200000'}]
+2025-10-05 12:46:03,860 | WARNING | __main__ | API key/secret not found in environment; running dry-run only
+2025-10-05 12:46:03,861 | INFO | __main__ | Starting TWAP: BTCUSDT BUY total=0.01 chunks=5 duration=60s
+2025-10-05 12:46:03,862 | INFO | __main__ | Each chunk: 0.00200000 (remainder carried until last chunk) every 12.00s
+2025-10-05 12:46:03,862 | INFO | __main__ | TWAP chunk 1/5 qty=0.00200000
+2025-10-05 12:46:03,863 | INFO | __main__ | Dry-run: skipping actual market order
+2025-10-05 12:46:15,864 | INFO | __main__ | TWAP chunk 2/5 qty=0.00200000
+2025-10-05 12:46:15,864 | INFO | __main__ | Dry-run: skipping actual market order
+2025-10-05 12:46:27,865 | INFO | __main__ | TWAP chunk 3/5 qty=0.00200000
+2025-10-05 12:46:27,865 | INFO | __main__ | Dry-run: skipping actual market order
+2025-10-05 12:46:39,867 | INFO | __main__ | TWAP chunk 4/5 qty=0.00200000
+2025-10-05 12:46:39,867 | INFO | __main__ | Dry-run: skipping actual market order
+2025-10-05 12:46:51,869 | INFO | __main__ | TWAP chunk 5/5 qty=0.00200000
+2025-10-05 12:46:51,869 | INFO | __main__ | Dry-run: skipping actual market order
+2025-10-05 12:46:51,869 | INFO | __main__ | TWAP result: [{'chunk': 1, 'status': 'DRY_RUN', 'qty': '0.00200000'}, {'chunk': 2, 'status': 'DRY_RUN', 'qty': '0.00200000'}, {'chunk': 3, 'status': 'DRY_RUN', 'qty': '0.00200000'}, {'chunk': 4, 'status': 'DRY_RUN', 'qty': '0.00200000'}, {'chunk': 5, 'status': 'DRY_RUN', 'qty': '0.00200000'}]
+2025-10-05 12:48:56,472 | WARNING | __main__ | API key/secret not found in environment; running dry-run only
+2025-10-05 12:48:56,473 | INFO | __main__ | Starting stop-limit watcher: BTCUSDT stop=62000 limit=61900 side=SELL
+2025-10-05 12:48:56,473 | INFO | __main__ | Dry-run mode: will not place real orders. Simulating trigger check.
+2025-10-05 12:48:56,474 | DEBUG | __main__ | Dry-run poll 1: price=SIMULATED
+2025-10-05 12:48:58,475 | DEBUG | __main__ | Dry-run poll 2: price=SIMULATED
+2025-10-05 12:49:00,475 | INFO | __main__ | Result: {'status': 'DRY_RUN', 'symbol': 'BTCUSDT', 'side': 'SELL', 'qty': '0.001', 'stop': '62000', 'limit': '61900'}
+2025-10-05 12:49:02,700 | WARNING | __main__ | API key/secret not found in environment; running dry-run only
+2025-10-05 12:49:02,700 | INFO | __main__ | Placing OCO emulation: BTCUSDT BUY qty=0.001 TP=70000 SL=60000
+2025-10-05 12:49:02,700 | INFO | __main__ | Dry-run mode: not placing real OCO orders
+2025-10-05 12:49:02,700 | INFO | __main__ | Placed OCO result: {'status': 'DRY_RUN'}

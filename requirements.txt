@@ -1,0 +1,13 @@
+
+---
+
+## 📦 **requirements.txt**
+
+python-binance==1.0.19
+pandas==2.2.2
+python-dotenv==1.0.1
+requests==2.32.3
+urllib3==2.2.2
+
+
+> These versions are stable and compatible with Binance’s latest Futures API.
