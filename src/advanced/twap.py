@@ -1,16 +1,4 @@
-"""
-TWAP (Time-Weighted Average Price) executor.
 
-Splits a large total quantity into `chunks` equal parts and executes them over `duration` seconds.
-This simple implementation uses market orders for each chunk and `time.sleep` between chunks.
-
-Usage (dry-run):
-  python src/advanced/twap.py --symbol BTCUSDT --side BUY --total 0.01 --chunks 5 --duration 60 --dry-run
-
-Notes:
-- Uses simple equal-slicing; in production you might randomize slice amounts/times to reduce footprint.
-- Uses market orders here; you could place limit orders at aggressive/passive sizes instead.
-"""
 import argparse
 import time
 import os
