@@ -1,15 +1,3 @@
-"""
-OCO (One Cancels the Other) for Binance Futures.
-Binance Futures doesn’t provide a direct OCO endpoint like Spot trading.
-We emulate it by:
-  1. Placing a Take-Profit limit order
-  2. Placing a Stop-Market order
-  3. Watching both orders — when one is filled, cancel the other
-
-⚠️ This is a simplified demo. In production you should use WebSockets for
-real-time monitoring instead of polling.
-"""
-
 import os
 import time
 import argparse
